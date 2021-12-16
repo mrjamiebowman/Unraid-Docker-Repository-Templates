@@ -6,6 +6,7 @@ Work In Progress.. hoping to get this done ASAP
 
 ## Containers Included
 * Azure Build Agent (.NET 6, Terraform, Ansible, Packer)  
+* NuGet Server
 * Parrot OS
 * Kafka
 * Microservice Toolbox (MBOX)
