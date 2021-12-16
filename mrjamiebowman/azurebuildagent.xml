@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
-  <TemplateURL></TemplateURL>
+  <TemplateURL>https://github.com/mrjamiebowman/unraid-docker-repository-templates/blob/main/mrjamiebowman/azurebuildagent.xml</TemplateURL>
   <Beta>True</Beta>
   <Category>Developers: MediaApp:Video</Category>
   <Name>Azure Build Agent (.NET)</Name>
