@@ -1,44 +1,48 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Containers>
-  <TemplateURL>https://github.com/mrjamiebowman/unraid-docker-repository-templates/blob/main/mrjamiebowman/azurebuildagent.xml</TemplateURL>
-  <Beta>True</Beta>
-  <Category>Developers: MediaApp:Video</Category>
-  <Name>Azure Build Agent (.NET)</Name>
-  <Description>
+ <?xml version="1.0" encoding="utf-8"?>
+ <Container version="2">
+   <Name Default="Sync">Azure Build Agent (.NET)</Name>
+   <Category>MediaApp:Music MediaServer:Photos Status:Stable</Category>
+   <Overview>
     Azure DevOps build agent on Ubuntu which includes .NET 6, Terraform, Ansible.
-  </Description>
-  <Overview>
-    Azure DevOps build agent on Ubuntu which includes .NET 6, Terraform, Ansible.
-  </Overview>
-  <Support>https://github.com/mrjamiebowman/azure-build-agent/issues</Support>
-  <ReadMe>https://github.com/mrjamiebowman/unraid-docker-repository-templates/documentation</ReadMe>
-  <Registry>https://registry.hub.docker.com/r/mrjamiebowman/azure-build-agent/</Registry>
-  <GitHub>https://github.com/mrjamiebowman/azure-build-agent</GitHub>
-  <Repository>mrjameibowman/azurebuildagent</Repository>
-  <Project>https://github.com/mrjamiebowman/azure-build-agent</Project>
-  <BindTime>true</BindTime>
-  <Privileged>false</Privileged>
-    <Networking>
-    <Mode>bridge</Mode>
-  </Networking>
-  <Environment>
-    <Variable>
-      <Name>AZP_URL</Name>
-      <Value></Value>
-    </Variable>
-    <Variable>
-      <Name>AZP_TOKEN</Name>
-      <Value></Value>
-    </Variable>
-    <Variable>
-      <Name>AZP_AGENT_NAME</Name>
-      <Value>dockeragent-01</Value>
-    </Variable>
-    <Variable>
-      <Name>AZP_POOL</Name>
-      <Value>Unraid</Value>
-    </Variable>
-  </Environment>
-  <Icon>https://raw.githubusercontent.com/binhex/docker-templates/master/binhex/images/medusa-icon.png</Icon>
-  <ExtraParams></ExtraParams>
-</Containers>
+   </Overview>   
+   <Registry>mrjamiebowman/azure-build-agent</Registry>
+   <Privileged>false</Privileged>
+   <Support>http://lime-technology.com/forum/index.php?topic=40654.0</Support>
+   <Icon>http://d2631fvi2jdnb6.cloudfront.net/docker/limetech/plex.png</Icon>
+   <Config 
+       Type="Variable" 
+       Name="Azure DevOps URL" 
+       Target="AZP_URL" 
+       Default="" 
+       Description="Azure DevOps URL" 
+       Mask="false" 
+       Display="advanced" 
+       Required="true">AZP_URL</Config>
+   <Config 
+       Type="Variable" 
+       Name="Azure DevOps URL" 
+       Target="AZP_TOKEN" 
+       Default="" 
+       Description="Azure DevOps URL" 
+       Mask="true" 
+       Display="advanced" 
+       Required="true">AZP_TOKEN</Config>
+   <Config 
+       Type="Variable" 
+       Name="Azure DevOps URL" 
+       Target="AZP_AGENT_NAME" 
+       Default="" 
+       Description="Azure DevOps URL" 
+       Mask="false" 
+       Display="advanced" 
+       Required="true">AZP_AGENT_NAME</Config>
+   <Config 
+       Type="Variable" 
+       Name="Azure DevOps URL" 
+       Target="AZP_POOL" 
+       Default="" 
+       Description="Azure DevOps URL" 
+       Mask="false" 
+       Display="advanced" 
+       Required="true">AZP_POOL</Config>              
+ </Container>
