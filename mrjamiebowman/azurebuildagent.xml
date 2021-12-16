@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <TemplateURL></TemplateURL>
+  <Beta>True</Beta>
+  <Category>Developers: MediaApp:Video</Category>
+  <Name>Azure Build Agent (.NET)</Name>
+  <Description>
+    Azure DevOps build agent on Ubuntu which includes .NET 6, Terraform, Ansible.
+  </Description>
+  <Overview>
+    Azure DevOps build agent on Ubuntu which includes .NET 6, Terraform, Ansible.
+  </Overview>
+  <Support>https://github.com/mrjamiebowman/azure-build-agent/issues</Support>
+  <ReadMe>https://github.com/mrjamiebowman/unraid-docker-repository-templates/documentation</ReadMe>
+  <Registry>https://registry.hub.docker.com/r/mrjamiebowman/azure-build-agent/</Registry>
+  <GitHub>https://github.com/mrjamiebowman/azure-build-agent</GitHub>
+  <Repository>mrjameibowman/azurebuildagent</Repository>
+  <Project>https://github.com/mrjamiebowman/azure-build-agent</Project>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+    <Networking>
+    <Mode>bridge</Mode>
+  </Networking>
+  <Environment>
+    <Variable>
+      <Name>AZP_TOKEN</Name>
+      <Value></Value>
+    </Variable>
+  </Environment>
+  <Icon>https://raw.githubusercontent.com/binhex/docker-templates/master/binhex/images/medusa-icon.png</Icon>
+  <ExtraParams></ExtraParams>
+</Containers>
