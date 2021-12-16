@@ -1,5 +1,7 @@
  <?xml version="1.0" encoding="utf-8"?>
  <Container version="2">
+   <TemplateURL>https://raw.githubusercontent.com/mrjamiebowman/docker-templates/main/mrjamiebowman/azurebuildagent.xml</TemplateURL>
+
    <Name Default="Sync">Azure Build Agent (.NET)</Name>
    <Category>MediaApp:Music MediaServer:Photos Status:Stable</Category>
    <Overview>
