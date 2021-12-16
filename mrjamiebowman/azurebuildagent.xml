@@ -1,15 +1,15 @@
  <?xml version="1.0" encoding="utf-8"?>
  <Container version="2">
    <TemplateURL>https://raw.githubusercontent.com/mrjamiebowman/docker-templates/main/mrjamiebowman/azurebuildagent.xml</TemplateURL>
-
    <Name Default="Sync">Azure Build Agent (.NET)</Name>
    <Category>MediaApp:Music MediaServer:Photos Status:Stable</Category>
    <Overview>
     Azure DevOps build agent on Ubuntu which includes .NET 6, Terraform, Ansible.
    </Overview>   
-   <Registry>mrjamiebowman/azure-build-agent</Registry>
+   <Registry>https://registry.hub.docker.com/r/mrjamiebowman/azure-build-agent</Registry>
+   <Repository>mrjamiebowman/azure-build-agent</Repository>
    <Privileged>false</Privileged>
-   <Support>http://lime-technology.com/forum/index.php?topic=40654.0</Support>
+   <Support>https://forums.unraid.net/topic/38974-support-limetechs-docker-repository/</Support>
    <Icon>http://d2631fvi2jdnb6.cloudfront.net/docker/limetech/plex.png</Icon>
    <Config 
        Type="Variable" 
