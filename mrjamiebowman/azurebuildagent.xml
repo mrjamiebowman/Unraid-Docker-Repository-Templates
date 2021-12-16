@@ -23,8 +23,20 @@
   </Networking>
   <Environment>
     <Variable>
+      <Name>AZP_URL</Name>
+      <Value></Value>
+    </Variable>
+    <Variable>
       <Name>AZP_TOKEN</Name>
       <Value></Value>
+    </Variable>
+    <Variable>
+      <Name>AZP_AGENT_NAME</Name>
+      <Value>dockeragent-01</Value>
+    </Variable>
+    <Variable>
+      <Name>AZP_POOL</Name>
+      <Value>Unraid</Value>
     </Variable>
   </Environment>
   <Icon>https://raw.githubusercontent.com/binhex/docker-templates/master/binhex/images/medusa-icon.png</Icon>
