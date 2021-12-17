@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>NuGet-BaGet</Name>
+  <Repository>loicsharma/baget</Repository>
+  <Registry>https://hub.docker.com/r/loicsharma/baget</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/mrjamiebowman/unraid-templates/issues</Support>
+  <Project>https://hub.docker.com/r/loicsharma/baget</Project>
+  <Overview>NuGet Server (BaGet)</Overview>
+  <Category>Tools: Status:Stable</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon/>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1639703788</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description>NuGet Server (BaGet)</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>5555</HostPort>
+        <ContainerPort>80</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data/>
+  <Environment>
+    <Variable>
+      <Value/>
+      <Name>ApiKey</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>/var/baget/packages</Value>
+      <Name>Storage__Path</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>Sqlite</Value>
+      <Name>Database__Type</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>Data Source=/var/baget/baget.db</Value>
+      <Name>Database__ConnectionString</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>Database</Value>
+      <Name>Search__Type</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>FileSystem</Value>
+      <Name>Storage__Type</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+  <Labels/>
+  <Config Name="Host Port 1" Target="80" Default="" Mode="tcp" Description="HTTP Port" Type="Port" Display="always" Required="true" Mask="false">5555</Config>
+  <Config Name="ApiKey" Target="ApiKey" Default="" Mode="" Description="NuGet Server API Key" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Stroage Path" Target="Storage__Path" Default="" Mode="" Description="Container Variable: Storage__Path" Type="Variable" Display="advanced" Required="true" Mask="false">/var/baget/packages</Config>
+  <Config Name="Database Type" Target="Database__Type" Default="Sqlite" Mode="" Description="Container Variable: Database__Type" Type="Variable" Display="advanced" Required="true" Mask="false">Sqlite</Config>
+  <Config Name="Database Connection String" Target="Database__ConnectionString" Default="" Mode="" Description="Container Variable: Database__ConnectionString" Type="Variable" Display="advanced" Required="true" Mask="false">Data Source=/var/baget/baget.db</Config>
+  <Config Name="Search Type" Target="Search__Type" Default="" Mode="" Description="Container Variable: Search__Type" Type="Variable" Display="advanced" Required="true" Mask="false">Database</Config>
+  <Config Name="Storage Type" Target="Storage__Type" Default="" Mode="" Description="Container Variable: Storage__Type" Type="Variable" Display="advanced" Required="true" Mask="false">FileSystem</Config>
+</Container>
