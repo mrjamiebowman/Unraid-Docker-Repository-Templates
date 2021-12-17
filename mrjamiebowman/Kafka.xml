@@ -1,4 +1,102 @@
-<?xml version="1.0" encoding="utf-8"?>
- <Container version="2">
-   <Name Default="Kafka">Kafka</Name>
- </Container>
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Landoop-Kafka</Name>
+  <Repository>landoop/fast-data-dev/</Repository>
+  <Registry>https://hub.docker.com/r/landoop/fast-data-dev/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/mrjamiebowman/unraid-templates/issues</Support>
+  <Project/>
+  <Overview>Landoop Kafka (fast-data-dev). &#xD;
+&#xD;
+This Docker image is packaged with Apache Kafka, Kafka Connect, Zookeeper, Confluent Schema Registry, and REST Proxy along with Lenses.io.</Overview>
+  <Category>Tools: Status:Stable</Category>
+  <WebUI>http://[IP]:[PORT:3030]</WebUI>
+  <TemplateURL/>
+  <Icon/>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1639701861</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description>Landoop Kafka (fast-data-dev). &#xD;
+&#xD;
+This Docker image is packaged with Apache Kafka, Kafka Connect, Zookeeper, Confluent Schema Registry, and REST Proxy along with Lenses.io.</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>2181</HostPort>
+        <ContainerPort>2181</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>3030</HostPort>
+        <ContainerPort>3030</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>8081</HostPort>
+        <ContainerPort>8081</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>8082</HostPort>
+        <ContainerPort>8082</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>8083</HostPort>
+        <ContainerPort>8083</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>9581</HostPort>
+        <ContainerPort>9581</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>9582</HostPort>
+        <ContainerPort>9582</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>9583</HostPort>
+        <ContainerPort>9583</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>9584</HostPort>
+        <ContainerPort>9584</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>9585</HostPort>
+        <ContainerPort>9585</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>9092</HostPort>
+        <ContainerPort>9092</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data/>
+  <Environment/>
+  <Labels/>
+  <Config Name="2181" Target="2181" Default="" Mode="tcp" Description="Container Port: 2181" Type="Port" Display="always" Required="true" Mask="false">2181</Config>
+  <Config Name="3030" Target="3030" Default="" Mode="tcp" Description="Container Port: 3030" Type="Port" Display="always" Required="true" Mask="false">3030</Config>
+  <Config Name="8081" Target="8081" Default="" Mode="tcp" Description="Container Port: 8081" Type="Port" Display="always" Required="true" Mask="false">8081</Config>
+  <Config Name="8082" Target="8082" Default="" Mode="tcp" Description="Container Port: 8082" Type="Port" Display="always" Required="true" Mask="false">8082</Config>
+  <Config Name="8083" Target="8083" Default="" Mode="tcp" Description="Container Port: 8083" Type="Port" Display="always" Required="true" Mask="false">8083</Config>
+  <Config Name="9581" Target="9581" Default="" Mode="tcp" Description="Container Port: 9581" Type="Port" Display="always" Required="true" Mask="false">9581</Config>
+  <Config Name="9582" Target="9582" Default="" Mode="tcp" Description="Container Port: 9582" Type="Port" Display="always" Required="true" Mask="false">9582</Config>
+  <Config Name="9583" Target="9583" Default="" Mode="tcp" Description="Container Port: 9583" Type="Port" Display="always" Required="true" Mask="false">9583</Config>
+  <Config Name="9584" Target="9584" Default="" Mode="tcp" Description="Container Port: 9584" Type="Port" Display="always" Required="true" Mask="false">9584</Config>
+  <Config Name="9585" Target="9585" Default="" Mode="tcp" Description="Container Port: 9585" Type="Port" Display="always" Required="true" Mask="false">9585</Config>
+  <Config Name="9092" Target="9092" Default="" Mode="tcp" Description="Container Port: 9092" Type="Port" Display="always" Required="true" Mask="false">9092</Config>
+</Container>
