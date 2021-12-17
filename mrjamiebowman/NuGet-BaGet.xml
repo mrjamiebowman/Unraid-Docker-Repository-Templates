@@ -40,7 +40,6 @@
   </Data>
   <Environment>
     <Variable>
-      <Value></Value>
       <Name>ApiKey</Name>
       <Mode/>
     </Variable>
