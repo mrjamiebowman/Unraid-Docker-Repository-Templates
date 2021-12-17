@@ -13,7 +13,7 @@
   <Category>Security:</Category>
   <WebUI/>
   <TemplateURL/>
-  <Icon/>
+  <Icon>https://raw.githubusercontent.com/mrjamiebowman/unraid-templates/master/images/parrot-os-logo.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>

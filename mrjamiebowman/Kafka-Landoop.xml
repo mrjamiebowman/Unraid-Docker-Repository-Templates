@@ -15,7 +15,7 @@ This Docker image is packaged with Apache Kafka, Kafka Connect, Zookeeper, Confl
   <Category>Tools: Status:Stable</Category>
   <WebUI>http://[IP]:[PORT:3030]</WebUI>
   <TemplateURL/>
-  <Icon/>
+  <Icon>https://raw.githubusercontent.com/mrjamiebowman/unraid-templates/master/images/apache-kafka-logo.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
