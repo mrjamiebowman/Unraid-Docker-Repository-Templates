@@ -13,6 +13,8 @@ Work In Progress.. hoping to get this done ASAP
 
 ## Unraid Useage
 
+`/usr/local/emhttp/plugins/dynamix.docker.manager/scripts/docker create --name='AzureDevOpsAgent' --net='bridge' -e TZ="America/Chicago" -e HOST_OS="Unraid" -e 'AZP_URL'='https://dev.azure.com/your-org-name' -e 'AZP_TOKEN'='' -e 'AZP_AGENT_NAME'='dockeragent-01' -e 'AZP_POOL'='Unraid' 'mrjamiebowman/azure-build-agent'`   
+
 Firstly you need to be running unRAID ver 6.0.0 or later, once installed follow the instructions below:-
 
 1. Navigate to "Docker" tab and then the "Docker Repositories" sub-tab in the unRAID webui
