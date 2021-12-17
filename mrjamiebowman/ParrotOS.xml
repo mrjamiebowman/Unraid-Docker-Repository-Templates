@@ -1,4 +1,31 @@
-<?xml version="1.0" encoding="utf-8"?>
- <Container version="2">
-   <Name Default="Parrot OS">Parrot OS</Name>
- </Container>
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Parrot-OS</Name>
+  <Repository>parrotsec/security</Repository>
+  <Registry>https://hub.docker.com/r/parrotsec/security</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/mrjamiebowman/unraid-templates/issues</Support>
+  <Project>https://hub.docker.com/r/parrotsec/security</Project>
+  <Overview>Parrot OS Security portable Docker container.</Overview>
+  <Category>Security:</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon/>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1639702102</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description>Parrot OS Security portable Docker container.</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish/>
+  </Networking>
+  <Data/>
+  <Environment/>
+  <Labels/>
+</Container>
