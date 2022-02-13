@@ -5,7 +5,7 @@
   <Registry>https://hub.docker.com/r/mitmproxy/mitmproxy</Registry>
   <Network>bridge</Network>
   <MyIP/>
-  <Shell>sh mitmweb --web-host 0.0.0.0</Shell>
+  <Shell>Sh</Shell>
   <Privileged>false</Privileged>
   <Support>https://github.com/mrjamiebowman/unraid-templates/issues</Support>
   <Project>https://hub.docker.com/r/mitmproxy/mitmproxy</Project>
@@ -14,7 +14,7 @@
   <WebUI>http://[IP]:[PORT:8081]</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/mrjamiebowman/unraid-templates/master/images/mitmproxy-logo.png</Icon>
-  <ExtraParams/>
+  <ExtraParams>mitmweb --web-host 0.0.0.0</ExtraParams>
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1639705336</DateInstalled>
