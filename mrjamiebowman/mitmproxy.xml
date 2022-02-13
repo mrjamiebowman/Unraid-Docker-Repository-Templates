@@ -14,7 +14,8 @@
   <WebUI>http://[IP]:[PORT:8081]</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/mrjamiebowman/unraid-templates/master/images/mitmproxy-logo.png</Icon>
-  <ExtraParams>mitmweb --web-host 0.0.0.0</ExtraParams>
+  <ExtraParams/>
+  <PostArgs>mitmweb --web-host 0.0.0.0</PostArgs>
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1639705336</DateInstalled>
