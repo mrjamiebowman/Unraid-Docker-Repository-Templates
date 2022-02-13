@@ -5,7 +5,7 @@
   <Registry>https://hub.docker.com/r/mitmproxy/mitmproxy</Registry>
   <Network>bridge</Network>
   <MyIP/>
-  <Shell>mitmweb --web-host 0.0.0.0</Shell>
+  <Shell>sh mitmweb --web-host 0.0.0.0</Shell>
   <Privileged>false</Privileged>
   <Support>https://github.com/mrjamiebowman/unraid-templates/issues</Support>
   <Project>https://hub.docker.com/r/mitmproxy/mitmproxy</Project>
@@ -21,6 +21,24 @@
   <DonateText/>
   <DonateLink/>
   <Description>mitmproxy (HTTP Proxy Server)</Description>
+  <Config 
+       Type="Port" 
+       Name="mitmproxy Proxy Port" 
+       Target="8080" 
+       Default="8080" 
+       Mode="tcp" 
+       Description="This is the proxy port." 
+       Display="always" 
+       Required="true">8080</Config>  
+  <Config 
+       Type="Port" 
+       Name="mitmproxy Web UI" 
+       Target="8081" 
+       Default="8081" 
+       Mode="tcp" 
+       Description="This is mitmproxy Web UI Port, and is used to access the web interface." 
+       Display="always" 
+       Required="true">8081</Config>  
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
@@ -30,7 +48,7 @@
         <Protocol>tcp</Protocol>
       </Port>
       <Port>
-        <HostPort>8081</HostPort>
+        <HostPort>127.0.0.1:8081</HostPort>
         <ContainerPort>8081</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
