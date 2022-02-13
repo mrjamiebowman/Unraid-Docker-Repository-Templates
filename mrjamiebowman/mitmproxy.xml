@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>mitmproxy</Name>
+  <Repository>mitmproxy/mitmproxy</Repository>
+  <Registry>https://hub.docker.com/r/mitmproxy/mitmproxy</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>mitmweb --web-host 0.0.0.0</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/mrjamiebowman/unraid-templates/issues</Support>
+  <Project>https://hub.docker.com/r/mitmproxy/mitmproxy</Project>
+  <Overview>mitmproxy (HTTP Proxy Server)</Overview>
+  <Category>Tools: Status:Stable</Category>
+  <WebUI>http://[IP]:[PORT:8081]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/mrjamiebowman/unraid-templates/master/images/mitmproxy-logo.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1639705336</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description>mitmproxy (HTTP Proxy Server)</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>8080</HostPort>
+        <ContainerPort>8080</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>8081</HostPort>
+        <ContainerPort>8081</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Labels/> 
+</Container>
