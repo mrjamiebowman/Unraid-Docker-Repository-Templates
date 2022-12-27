@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Debezium</Name>
+  <Repository/>
+  <Registry>https://hub.docker.com/repository/docker/mrjamiebowman/debezium</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>1</Support>
+  <Project>https://github.com/mrjamiebowman/unraid-templates</Project>
+  <Overview>Debezium</Overview>
+  <Category>Tools:</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/mrjamiebowman/unraid-templates/master/images/debezium-logo.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1672144198</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires>Kafka</Requires>
+  <Networking>
+  <Mode>bridge</Mode>
+  <Publish>
+    <Port>
+      <HostPort>8083</HostPort>
+      <ContainerPort>8083</ContainerPort>
+      <Protocol>tcp</Protocol>
+    </Port>
+    <Port>
+      <HostPort>8084</HostPort>
+      <ContainerPort>8084</ContainerPort>
+      <Protocol>tcp</Protocol>
+    </Port>
+  </Publish>
+</Networking>
+<Data/>
+<Environment/>
+<Labels/>
+<Config Name="8083" Target="8083" Default="" Mode="tcp" Description="Container Port: 8083" Type="Port" Display="always" Required="true" Mask="false">8083</Config>
+<Config Name="8084" Target="8084" Default="" Mode="tcp" Description="Container Port: 8084" Type="Port" Display="always" Required="true" Mask="false">8084</Config>
+</Container>
