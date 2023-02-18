@@ -19,9 +19,9 @@
   <CPUset/>  
   <DonateText/>
   <DonateLink/>
-<Data/>
-<Environment/>
-<Labels/>
-<Config Name="8083" Target="8083" Default="" Mode="tcp" Description="Container Port: 8083" Type="Port" Display="always" Required="true" Mask="false">8083</Config>
-<Config Name="8084" Target="8084" Default="" Mode="tcp" Description="Container Port: 8084" Type="Port" Display="always" Required="true" Mask="false">8084</Config>
+  <Data/>
+  <Environment/>
+  <Labels/>
+  <Config Name="8083" Target="8083" Default="" Mode="tcp" Description="Container Port: 8083" Type="Port" Display="always" Required="true" Mask="false">8083</Config>
+  <Config Name="8084" Target="8084" Default="" Mode="tcp" Description="Container Port: 8084" Type="Port" Display="always" Required="true" Mask="false">8084</Config>
 </Container>
