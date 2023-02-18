@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>Kafka (Landoop)</Name>
+  <Name>Kafka-Landoop</Name>
   <Repository>landoop/fast-data-dev</Repository>
   <Registry>https://hub.docker.com/r/landoop/fast-data-dev/</Registry>
   <Network>bridge</Network>
