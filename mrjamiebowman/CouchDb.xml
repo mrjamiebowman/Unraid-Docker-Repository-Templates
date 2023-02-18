@@ -25,6 +25,6 @@
   <Config Name="Host Path 1" Target="/opt/couchdb/data" Default="/mnt/user/appdata/couchdb/data" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/couchdb/data</Config>
   <Config Name="Host Path 2" Target="/usr/local/etc/couchdb" Default="/mnt/user/appdata/couchdb/config" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/couchdb/config</Config>
   <Config Name="Key 1" Target="test" Default="yes" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">yes</Config>
-  <Config Name="COUCHDB_USER" Target="COUCHDB_USER" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">mrjamiebowman</Config>
+  <Config Name="COUCHDB_USER" Target="COUCHDB_USER" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
   <Config Name="COUCHDB_PASSWORD" Target="COUCHDB_PASSWORD" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="true"></Config>
 </Container>
