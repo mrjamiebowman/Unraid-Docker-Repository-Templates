@@ -14,7 +14,7 @@
   <WebUI>http://[IP]:[PORT:8080]/</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/mrjamiebowman/unraid-templates/master/mrjamiebowman/CockroachDb.xml</TemplateURL>
   <Icon></Icon>
-  <ExtraParams/>
+  <ExtraParams>--insecure</ExtraParams>
   <PostArgs/>
   <CPUset/>
   <DonateText/>
