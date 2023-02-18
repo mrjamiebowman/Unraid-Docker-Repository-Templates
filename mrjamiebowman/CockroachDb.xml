@@ -13,8 +13,8 @@
   <Category>Cloud:</Category>
   <WebUI>http://[IP]:[PORT:8080]/</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/mrjamiebowman/unraid-templates/master/mrjamiebowman/CockroachDb.xml</TemplateURL>
-  <Icon></Icon>
-  <ExtraParams></ExtraParams>
+  <Icon/>
+  <ExtraParams/>
   <PostArgs>start --insecure</PostArgs>
   <CPUset/>
   <DonateText/>
