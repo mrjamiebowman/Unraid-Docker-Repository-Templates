@@ -7,34 +7,18 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>1</Support>
+  <Support>https://github.com/mrjamiebowman/unraid-templates/issues</Support>
   <Project>https://github.com/mrjamiebowman/unraid-templates</Project>
   <Overview>Debezium</Overview>
-  <Category>Tools:</Category>
-  <WebUI/>
-  <TemplateURL/>
+  <Category>Tools:Cloud</Category>
+  <WebUI>http://[IP]:[PORT:8083]/</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/mrjamiebowman/unraid-templates/master/mrjamiebowman/Debezium.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/mrjamiebowman/unraid-templates/master/images/debezium-logo.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>  
   <DonateText/>
   <DonateLink/>
-  <Requires>Kafka</Requires>
-  <Networking>
-  <Mode>bridge</Mode>
-  <Publish>
-    <Port>
-      <HostPort>8083</HostPort>
-      <ContainerPort>8083</ContainerPort>
-      <Protocol>tcp</Protocol>
-    </Port>
-    <Port>
-      <HostPort>8084</HostPort>
-      <ContainerPort>8084</ContainerPort>
-      <Protocol>tcp</Protocol>
-    </Port>
-  </Publish>
-</Networking>
 <Data/>
 <Environment/>
 <Labels/>
