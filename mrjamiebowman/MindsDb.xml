@@ -27,6 +27,6 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <Config Type="Port" Name="Port1" Target="47334" Default="47334" Mode="tcp" Display="always-hide" Required="true" Description="Ports"/>
-  <Config Type="Port" Name="Port2" Target="47335" Default="47335" Mode="tcp" Display="always-hide" Required="true" Description="Ports"/>
+  <Config Type="Port" Name="Port1" Target="47334" Default="47334" Mode="tcp" Display="always-hide" Required="true" Description="Port"/>
+  <Config Type="Port" Name="Port2" Target="47335" Default="47335" Mode="tcp" Display="always-hide" Required="true" Description="Port"/>
 </Container>

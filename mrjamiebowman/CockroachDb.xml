@@ -27,19 +27,6 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <Networking>
-    <Mode>bridge</Mode>
-    <Publish>
-      <Port>
-        <HostPort>26257</HostPort>
-        <ContainerPort>26257</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>
-      <Port>
-        <HostPort>8080</HostPort>
-        <ContainerPort>8080</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>
-    </Publish>
-  </Networking>
+  <Config Type="Port" Name="Port1" Target="26257" Default="26257" Mode="tcp" Display="always-hide" Required="true" Description="Port"/>
+  <Config Type="Port" Name="Port2" Target="8080" Default="8080" Mode="tcp" Display="always-hide" Required="true" Description="Port"/>
 </Container>
