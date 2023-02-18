@@ -13,7 +13,7 @@
   <Category>Cloud:</Category>
   <WebUI>http://[IP]:[PORT:8080]/</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/mrjamiebowman/unraid-templates/master/mrjamiebowman/CockroachDb.xml</TemplateURL>
-  <Icon/>
+  <Icon>https://raw.githubusercontent.com/mrjamiebowman/unraid-templates/master/images/cockroachdb.png</Icon>
   <ExtraParams/>
   <PostArgs>start-single-node --insecure</PostArgs>
   <CPUset/>
