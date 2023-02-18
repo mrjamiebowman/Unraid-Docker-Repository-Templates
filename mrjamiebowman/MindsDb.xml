@@ -17,14 +17,7 @@
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1676641004</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
-  <Config Name="Host Port 1" Target="5984" Default="5984" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">5984</Config>
-  <Config Name="Host Path 1" Target="/opt/couchdb/data" Default="/mnt/user/appdata/couchdb/data" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/couchdb/data</Config>
-  <Config Name="Host Path 2" Target="/usr/local/etc/couchdb" Default="/mnt/user/appdata/couchdb/config" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/couchdb/config</Config>
-  <Config Name="Key 1" Target="test" Default="yes" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">yes</Config>
-  <Config Name="COUCHDB_USER" Target="COUCHDB_USER" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">mrjamiebowman</Config>
-  <Config Name="COUCHDB_PASSWORD" Target="COUCHDB_PASSWORD" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="true">***REMOVED***</Config>
 </Container>
