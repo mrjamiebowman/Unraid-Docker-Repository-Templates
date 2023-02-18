@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>MindsDB</Name>
-  <Repository>cmindsdb/mindsdb</Repository>
-  <Registry>https://hub.docker.com/r/cmindsdb/mindsdb/</Registry>
+  <Repository>mindsdb/mindsdb</Repository>
+  <Registry>https://hub.docker.com/r/mindsdb/mindsdb/</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
@@ -11,8 +11,8 @@
   <Project/>
   <Overview>MindsDB gives enterprise databases predictive capabilities powered by machine learning.</Overview>
   <Category>Cloud:</Category>
-  <WebUI>http://[IP]:[PORT:5984]/_utils</WebUI>
-  <TemplateURL>https://raw.githubusercontent.com/spants/unraidtemplates/master/Spants/CouchDB-v2.x.xml</TemplateURL>
+  <WebUI>http://[IP]:[PORT:8080]/</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/mrjamiebowman/unraid-templates/master/mrjamiebowman/MindsDb.xml</TemplateURL>
   <Icon>https://couchdb.apache.org/image/couch@2x.png</Icon>
   <ExtraParams/>
   <PostArgs/>
