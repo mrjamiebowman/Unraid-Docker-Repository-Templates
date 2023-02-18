@@ -20,7 +20,6 @@
   <DonateText/>
   <DonateLink/>
   <Requires/>
-
   <Data>
     <Volume>
       <HostDir>/mnt/user/appdata/mindsdb/storage</HostDir>
