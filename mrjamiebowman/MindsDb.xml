@@ -13,7 +13,7 @@
   <Category>Cloud:</Category>
   <WebUI>http://[IP]:[PORT:8080]/</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/mrjamiebowman/unraid-templates/master/mrjamiebowman/MindsDb.xml</TemplateURL>
-  <Icon>https://couchdb.apache.org/image/mindsdb.png</Icon>
+  <Icon>https://github.com/mrjamiebowman/unraid-templates/raw/master/images/mindsdb.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
