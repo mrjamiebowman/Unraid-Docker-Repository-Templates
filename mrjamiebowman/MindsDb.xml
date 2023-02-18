@@ -11,7 +11,7 @@
   <Project/>
   <Overview>MindsDB gives enterprise databases predictive capabilities powered by machine learning.</Overview>
   <Category>Cloud:</Category>
-  <WebUI>http://[IP]:[PORT:8080]/</WebUI>
+  <WebUI/>
   <TemplateURL>https://raw.githubusercontent.com/mrjamiebowman/unraid-templates/master/mrjamiebowman/MindsDb.xml</TemplateURL>
   <Icon>https://github.com/mrjamiebowman/unraid-templates/raw/master/images/mindsdb.png</Icon>
   <ExtraParams/>
@@ -27,19 +27,6 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <Networking>
-    <Mode>bridge</Mode>
-    <Publish>
-      <Port>
-        <HostPort>47334</HostPort>
-        <ContainerPort>47334</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>
-      <Port>
-        <HostPort>47335</HostPort>
-        <ContainerPort>47335</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>
-    </Publish>
-  </Networking>
+  <Config Type="Port" Name="Port1" Target="47334" Default="47334" Mode="tcp" Display="always-hide" Required="true" Description="Ports"/>
+  <Config Type="Port" Name="Port2" Target="47335" Default="47335" Mode="tcp" Display="always-hide" Required="true" Description="Ports"/>
 </Container>
