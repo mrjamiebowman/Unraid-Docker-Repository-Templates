@@ -11,7 +11,7 @@
   <Project/>
   <Overview>MindsDB gives enterprise databases predictive capabilities powered by machine learning.</Overview>
   <Category>Cloud:</Category>
-  <WebUI/>
+  <WebUI>http://[IP]:[PORT:47334]/</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/mrjamiebowman/unraid-templates/master/mrjamiebowman/MindsDb.xml</TemplateURL>
   <Icon>https://github.com/mrjamiebowman/unraid-templates/raw/master/images/mindsdb.png</Icon>
   <ExtraParams/>
