@@ -9,11 +9,7 @@
   <Privileged>false</Privileged>
   <Support>https://lime-technology.com/forum/index.php?topic=38486.0</Support>
   <Project/>
-  <Overview>CouchDB docker image for v3.x&#xD;
-&#xD;
-&#xD;
-  Apache CouchDB has a document-oriented NoSQL database architecture and is Open Source.&#xD;
-</Overview>
+  <Overview>Apache CouchDB has a document-oriented NoSQL database architecture and is Open Source.</Overview>
   <Category>Cloud:</Category>
   <WebUI>http://[IP]:[PORT:5984]/_utils</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/spants/unraidtemplates/master/Spants/CouchDB-v2.x.xml</TemplateURL>
@@ -30,5 +26,5 @@
   <Config Name="Host Path 2" Target="/usr/local/etc/couchdb" Default="/mnt/user/appdata/couchdb/config" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/couchdb/config</Config>
   <Config Name="Key 1" Target="test" Default="yes" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">yes</Config>
   <Config Name="COUCHDB_USER" Target="COUCHDB_USER" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">mrjamiebowman</Config>
-  <Config Name="COUCHDB_PASSWORD" Target="COUCHDB_PASSWORD" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="true">***REMOVED***</Config>
+  <Config Name="COUCHDB_PASSWORD" Target="COUCHDB_PASSWORD" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="true"></Config>
 </Container>
