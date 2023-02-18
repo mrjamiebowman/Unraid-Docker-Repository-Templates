@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>Debezium</Name>
-  <Repository/>
-  <Registry>https://hub.docker.com/repository/docker/mrjamiebowman/debezium</Registry>
+  <Repository>debezium/connect<Repository/>
+  <Registry>https://hub.docker.com/r/debezium/connect</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
@@ -16,8 +16,7 @@
   <Icon>https://raw.githubusercontent.com/mrjamiebowman/unraid-templates/master/images/debezium-logo.png</Icon>
   <ExtraParams/>
   <PostArgs/>
-  <CPUset/>
-  <DateInstalled>1672144198</DateInstalled>
+  <CPUset/>  
   <DonateText/>
   <DonateLink/>
   <Requires>Kafka</Requires>
