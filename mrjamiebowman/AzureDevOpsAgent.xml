@@ -2,14 +2,14 @@
 <Container version="2">
   <Name>AzureDevOpsAgent</Name>
   <Repository>mrjamiebowman/azure-build-agent</Repository>
-  <Registry/>
+  <Registry>https://hub.docker.com/r/mrjamiebowman/azure-build-agent</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support>https://github.com/mrjamiebowman/docker-templates/issues</Support>
   <Project>https://github.com/mrjamiebowman/docker-templates</Project>
-  <Overview>Azure DevOps build agent on Ubuntu which includes .NET 6, Terraform, Ansible.</Overview>
+  <Overview>Azure DevOps build agent on Ubuntu which includes .NET 7, Terraform, Ansible.</Overview>
   <Category>Tools: Status:Stable</Category>
   <WebUI/>
   <TemplateURL/>
@@ -17,10 +17,9 @@
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1639699311</DateInstalled>
   <DonateText/>
   <DonateLink/>
-  <Description>Azure DevOps build agent on Ubuntu which includes .NET 6, Terraform, Ansible.</Description>
+  <Description>Azure DevOps build agent on Ubuntu which includes .NET 7, Terraform, Ansible.</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish/>

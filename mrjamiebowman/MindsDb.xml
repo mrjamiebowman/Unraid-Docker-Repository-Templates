@@ -1,19 +1,15 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>CouchDB</Name>
-  <Repository>apache/couchdb</Repository>
-  <Registry>https://hub.docker.com/r/apache/couchdb/</Registry>
+  <Name>MindsDB</Name>
+  <Repository>cmindsdb/mindsdb</Repository>
+  <Registry>https://hub.docker.com/r/cmindsdb/mindsdb/</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://lime-technology.com/forum/index.php?topic=38486.0</Support>
+  <Support>https://github.com/mrjamiebowman/unraid-templates/issues</Support>
   <Project/>
-  <Overview>CouchDB docker image for v3.x&#xD;
-&#xD;
-&#xD;
-  Apache CouchDB has a document-oriented NoSQL database architecture and is Open Source.&#xD;
-</Overview>
+  <Overview>MindsDB gives enterprise databases predictive capabilities powered by machine learning.</Overview>
   <Category>Cloud:</Category>
   <WebUI>http://[IP]:[PORT:5984]/_utils</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/spants/unraidtemplates/master/Spants/CouchDB-v2.x.xml</TemplateURL>
