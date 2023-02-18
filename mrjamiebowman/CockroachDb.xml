@@ -19,7 +19,14 @@
   <CPUset/>
   <DonateText/>
   <DonateLink/>
-  <Requires/>  
+  <Requires/>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/cockroach</HostDir>
+      <ContainerDir>/cockroach/cockroach-data</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
