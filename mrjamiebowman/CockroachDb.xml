@@ -12,8 +12,8 @@
   <Overview>CockroachDB is an open source, survivable, strongly consistent, scale-out SQL database.</Overview>
   <Category>Cloud:</Category>
   <WebUI>http://[IP]:[PORT:8080]/</WebUI>
-  <TemplateURL>https://raw.githubusercontent.com/spants/unraidtemplates/master/Spants/CouchDB-v2.x.xml</TemplateURL>
-  <Icon>https://couchdb.apache.org/image/couch@2x.png</Icon>
+  <TemplateURL>https://raw.githubusercontent.com/mrjamiebowman/unraid-templates/master/mrjamiebowman/CockroachDb.xml</TemplateURL>
+  <Icon></Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
