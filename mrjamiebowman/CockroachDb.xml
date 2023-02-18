@@ -22,7 +22,7 @@
   <Requires/>
   <Data>
     <Volume>
-      <HostDir>/mnt/user/appdata/cockroach</HostDir>
+      <HostDir>/mnt/user/appdata/cockroach/data</HostDir>
       <ContainerDir>/cockroach/cockroach-data</ContainerDir>
       <Mode>rw</Mode>
     </Volume>

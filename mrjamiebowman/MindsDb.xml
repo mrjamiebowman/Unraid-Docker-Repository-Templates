@@ -20,4 +20,27 @@
   <DonateText/>
   <DonateLink/>
   <Requires/>
+
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/mindsdb/storage</HostDir>
+      <ContainerDir>/root/mdb_storage</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>47334</HostPort>
+        <ContainerPort>47334</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>47335</HostPort>
+        <ContainerPort>47335</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
 </Container>
