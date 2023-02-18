@@ -2,15 +2,15 @@
 <Container version="2">
   <Name>Debezium</Name>
   <Repository>debezium/connect</Repository>
-  <Registry/>
+  <Registry>https://hub.docker.com/r/debezium/connect</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
-  <Project/>
+  <Support>https://github.com/mrjamiebowman/unraid-templates/issues</Support>
+  <Project>https://github.com/mrjamiebowman/unraid-templates</Project>
   <Overview>Debezium</Overview>
-  <Category/>
+  <Category>Tools:</Category>
   <WebUI>http://[IP]:[PORT:8083]/</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/mrjamiebowman/unraid-templates/master/mrjamiebowman/Debezium.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/mrjamiebowman/unraid-templates/master/images/debezium-logo.png</Icon>
