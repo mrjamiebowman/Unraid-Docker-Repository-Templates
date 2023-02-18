@@ -15,7 +15,7 @@
   <TemplateURL>https://raw.githubusercontent.com/mrjamiebowman/unraid-templates/master/mrjamiebowman/CockroachDb.xml</TemplateURL>
   <Icon></Icon>
   <ExtraParams>--insecure</ExtraParams>
-  <PostArgs/>
+  <PostArgs>start</PostArgs>
   <CPUset/>
   <DonateText/>
   <DonateLink/>
