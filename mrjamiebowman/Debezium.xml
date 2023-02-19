@@ -21,20 +21,6 @@
   <DonateText/>
   <DonateLink/>
   <Requires/>
-  <Config Name="8083" Target="8083" Default="" Mode="tcp" Description="Container Port: 8083" Type="Port" Display="always" Required="true" Mask="false">8083</Config>
-  <Config Name="8084" Target="8084" Default="" Mode="tcp" Description="Container Port: 8084" Type="Port" Display="always" Required="true" Mask="false">8084</Config>
+  <Config Name="HttpPort" Target="8083" Default="" Mode="tcp" Description="Container Port: 8083" Type="Port" Display="always" Required="true" Mask="false">9083</Config>
+  <Config Name="HttpsPort" Target="8084" Default="" Mode="tcp" Description="Container Port: 8084" Type="Port" Display="always" Required="true" Mask="false">9084</Config>
 </Container>
-<!--
-      KAFKA_BROKER_ID: 1
-      KAFKA_ZOOKEEPER_CONNECT: 'zookeeper:2181'
-      # KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_INTERNAL:PLAINTEXT
-      # KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://localhost:9092,PLAINTEXT_INTERNAL://kafka:29092
-      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
-      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
-      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
-      # cp
-      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT
-      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:29092,PLAINTEXT_HOST://localhost:9092
-      # disable auto create topics - https://debezium.io/documentation/reference/stable/configuration/topic-auto-create-config.html#disabling-automatic-topic-creation-for-the-kafka-broker
-      KAFKA_AUTO_CREATE_TOPICS_ENABLE: 'false'
--->
