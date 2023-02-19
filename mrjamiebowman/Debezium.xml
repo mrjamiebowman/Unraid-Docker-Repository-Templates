@@ -21,9 +21,9 @@
   <DonateText/>
   <DonateLink/>
   <Requires/>
-  <Config Name="BOOTSTRAP_SERVERS" Target="BOOTSTRAP_SERVERS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">kafka:29092</Config>
+  <Config Name="BOOTSTRAP_SERVERS" Target="BOOTSTRAP_SERVERS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">host.docker.internal:29092</Config>
   <Config Name="KAFKA_BROKER_ID" Target="KAFKA_BROKER_ID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">1</Config>
-  <Config Name="KAFKA_ZOOKEEPER_CONNECT" Target="KAFKA_ZOOKEEPER_CONNECT" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">Kafka-Landoop:2181</Config>
+  <Config Name="KAFKA_ZOOKEEPER_CONNECT" Target="KAFKA_ZOOKEEPER_CONNECT" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">host.docker.internal:2181</Config>
   <Config Name="KAFKA_LISTENER_SECURITY_PROTOCOL_MAP" Target="KAFKA_LISTENER_SECURITY_PROTOCOL_MAP" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">PLAINTEXT:PLAINTEXT,PLAINTEXT_INTERNAL:PLAINTEXT</Config>
   <Config Name="KAFKA_ADVERTISED_LISTENERS" Target="KAFKA_ADVERTISED_LISTENERS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">PLAINTEXT://localhost:9092,PLAINTEXT_INTERNAL://Kafka-Landoop:29092</Config>
   <Config Name="KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR" Target="KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">1</Config>
