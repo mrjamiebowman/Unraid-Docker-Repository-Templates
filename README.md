@@ -27,3 +27,7 @@ Firstly you need to be running unRAID ver 6.0.0 or later, once installed follow 
 6. Click the "Advanced View" toggle on the top right and fill in required fields e.g. volume data, environment variables etc
 7. Click on the "Create" button at the bottom of the window to begin pulling down the Docker image
 8. Once the image is downloaded you should see it appear in the "Docker Containers" sub-tab
+
+
+## Starting Debezium
+Debezium requires an instance of Kafka, and ZooKeeper running in order to operate. This can be tricky and ports must be mapped to different host ports for easy compatibility and access.   
