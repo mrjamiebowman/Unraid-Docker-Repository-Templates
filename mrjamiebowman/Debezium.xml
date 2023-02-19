@@ -29,6 +29,10 @@
   <Config Name="KAFKA_TRANSACTION_STATE_LOG_MIN_ISR" Target="KEY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">1</Config>
   <Config Name="KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR" Target="KEY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">1</Config>
   <Config Name="KAFKA_AUTO_CREATE_TOPICS_ENABLE" Target="KEY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">false</Config>
+  <Config Name="CONNECT_TOPIC_CREATION_ENABLE" Target="CONFIG_STORAGE_TOPIC" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">true</Config>
+  <Config Name="CONFIG_STORAGE_TOPIC" Target="CONFIG_STORAGE_TOPIC" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">debezium-topic</Config>
+  <Config Name="OFFSET_STORAGE_TOPIC" Target="CONFIG_STORAGE_TOPIC" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">debezium-offsets</Config>
+  <Config Name="STATUS_STORAGE_TOPIC" Target="CONFIG_STORAGE_TOPIC" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">debezium-statuses</Config>
   <Config Name="HttpPort" Target="8083" Default="" Mode="tcp" Description="Container Port: 8083" Type="Port" Display="always" Required="true" Mask="false">9083</Config>
   <Config Name="HttpsPort" Target="8084" Default="" Mode="tcp" Description="Container Port: 8084" Type="Port" Display="always" Required="true" Mask="false">9084</Config>
 </Container>
