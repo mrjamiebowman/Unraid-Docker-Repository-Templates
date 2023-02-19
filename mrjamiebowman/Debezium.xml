@@ -22,9 +22,9 @@
   <DonateLink/>
   <Requires/>
   <Config Name="KAFKA_BROKER_ID" Target="KEY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">1</Config>
-  <Config Name="KAFKA_ZOOKEEPER_CONNECT" Target="KEY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">zookeeper:2181</Config>
+  <Config Name="KAFKA_ZOOKEEPER_CONNECT" Target="KEY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">Kafka-Landoop:2181</Config>
   <Config Name="KAFKA_LISTENER_SECURITY_PROTOCOL_MAP" Target="KEY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">PLAINTEXT:PLAINTEXT,PLAINTEXT_INTERNAL:PLAINTEXT</Config>
-  <Config Name="KAFKA_ADVERTISED_LISTENERS" Target="KEY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">PLAINTEXT://localhost:9092,PLAINTEXT_INTERNAL://kafka:29092</Config>
+  <Config Name="KAFKA_ADVERTISED_LISTENERS" Target="KEY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">PLAINTEXT://localhost:9092,PLAINTEXT_INTERNAL://Kafka-Landoop:29092</Config>
   <Config Name="KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR" Target="KEY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">1</Config>
   <Config Name="KAFKA_TRANSACTION_STATE_LOG_MIN_ISR" Target="KEY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">1</Config>
   <Config Name="KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR" Target="KEY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">1</Config>
