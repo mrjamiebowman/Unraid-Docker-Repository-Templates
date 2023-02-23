@@ -52,5 +52,5 @@
   <Config Name="AZP_TOKEN" Target="AZP_TOKEN" Default="" Mode="" Description="Azure Build Agent Token" Type="Variable" Display="always" Required="true" Mask="true"/>
   <Config Name="AZP_AGENT_NAME" Target="AZP_AGENT_NAME" Default="dockeragent-01" Mode="" Description="Build Agent Name" Type="Variable" Display="always" Required="true" Mask="false">dockeragent-01</Config>
   <Config Name="AZP_POOL" Target="AZP_POOL" Default="Unraid" Mode="" Description="Azure DevOps Agent Pool Name" Type="Variable" Display="always" Required="true" Mask="false"/>
-  <Config Name="Host Path 1" Target="/azp/_diag" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/azuredevopsagent/azp/_diag</Config>
+  <Config Name="Host Path 1" Target="/azp/_diag" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/azuredevopsagent/diag</Config>
 </Container>
