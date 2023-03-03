@@ -11,12 +11,12 @@
   <Project>https://github.com/mrjamiebowman/docker-templates</Project>
   <Overview>ClickHouse is an open-source column-oriented DBMS (columnar database management system) for online analytical processing (OLAP) that allows users to generate analytical reports using SQL queries in real-time.</Overview>
   <Category>Cloud:</Category>
-  <WebUI>http://[IP]:[PORT:8080]/</WebUI>
+  <WebUI>http://[IP]:[PORT:262144]/</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/mrjamiebowman/unraid-templates/master/mrjamiebowman/ClickHouse.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/mrjamiebowman/unraid-templates/master/images/clickhouse.png</Icon>
   <ExtraParams/>
   <PostArgs></PostArgs>
-  <CPUset/>
+  <CPUset/> 
   <DonateText/>
   <DonateLink/>
   <Requires/>
@@ -33,4 +33,5 @@
     </Volume>    
   </Data>
   <Config Type="Port" Name="Port1" Target="262144" Default="262144" Mode="tcp" Display="always-hide" Required="true" Description="Port"/>
+  <Config Type="Port" Name="Port2" Target="9000" Default="9000" Mode="tcp" Display="always-hide" Required="true" Description="Port"/>
 </Container>
