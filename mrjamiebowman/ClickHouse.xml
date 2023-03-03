@@ -12,7 +12,7 @@
   <Overview>ClickHouse is an open-source column-oriented DBMS (columnar database management system) for online analytical processing (OLAP) that allows users to generate analytical reports using SQL queries in real-time.</Overview>
   <Category>Cloud:</Category>
   <WebUI>http://[IP]:[PORT:8080]/</WebUI>
-  <TemplateURL>https://raw.githubusercontent.com/mrjamiebowman/unraid-templates/master/mrjamiebowman/CockroachDb.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/mrjamiebowman/unraid-templates/master/mrjamiebowman/ClickHouse.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/mrjamiebowman/unraid-templates/master/images/cockroachdb.png</Icon>
   <ExtraParams/>
   <PostArgs></PostArgs>
